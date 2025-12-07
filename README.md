@@ -6,7 +6,7 @@ The online part can check the ETH or token balance of your addresses, and broadc
 The offline part can generate seed phrases, private keys, and create transactions. It has no need for internet connection and exports the transactions as qr codes for broadcasting.
 
 I recommend running the offline part on a device with radios (wifi, bluetooth, etc...) removed. You might like to use tails and paper wallets so that the private keys are never stored digitally.
-CAUTION: INSTALL THIS BEFORE REMOVING RADIOS ;)
+CAUTION: INSTALL SOFTWARE BEFORE REMOVING RADIOS ;)
 
 ## Installation guide (same for online and offline parts)
 - Install node and npm if not already installed
@@ -16,6 +16,8 @@ CAUTION: INSTALL THIS BEFORE REMOVING RADIOS ;)
 - npm install viem qrcode (qrcode only neccesary for offline part)
 - In `package.json`, add or change 'type' to "type": "module".
 - Add the correct .js files (Online: online.js, abi.js, client.js. Offline: offline.js)
+
+- If you can't get npm to work in tails, you can just install everything (including node) to one folder in windows, zip it, and send it to tails using email.
 
 ## Use guide
 - Open terminal in folder
