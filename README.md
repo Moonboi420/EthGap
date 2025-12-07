@@ -19,6 +19,7 @@ CAUTION: INSTALL THIS BEFORE REMOVING RADIOS ;)
 - Open terminal in folder
 - node
 - w = await import('./offline.js') [OR online.js!]
+
 Now you can use the functions provided in the code.
 
 ## Workflow
