@@ -24,6 +24,7 @@ Now you can use the functions provided in the code.
 
 ## Workflow
 - Use the Online part to check your balance.
+- IMPORTANT: Get the latest nonce for your address.
 - Input your seed phrase to the Offline part and use it to create a signed transaction.
 - Export the signed transaction as a QR code.
 - Scan: https://scanqr.org/#scan.
