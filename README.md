@@ -14,6 +14,7 @@ CAUTION: INSTALL THIS BEFORE REMOVING RADIOS ;)
 - Open terminal in folder
 - npm init -y
 - npm install viem qrcode (qrcode only neccesary for offline part)
+- Add the correct .js files (Online: online.js, abi.js, client.js. Offline: offline.js)
 
 ## Use guide
 - Open terminal in folder
