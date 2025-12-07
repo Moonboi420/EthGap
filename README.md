@@ -36,6 +36,6 @@ Now you can use the functions provided in the code.
 
 ## Story
 I am not a developer just some kid with a Grok account.
-I just wanted to sign Eth transactions in tails for security and was shocked that the fucking shit eth ecosystem couldn't even do that one simple thing.
+I just wanted to sign Eth transactions offline in tails for security and was shocked that the fucking shit eth ecosystem couldn't even do that one simple thing.
 
 Let me know if you have any feedback or if you find any bugs or if you want to add anything.
