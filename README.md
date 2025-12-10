@@ -8,23 +8,13 @@ The offline part can generate seed phrases, private keys, and create transaction
 I recommend running the offline part on a device with radios (wifi, bluetooth, etc...) removed. You might like to use tails and paper wallets so that the private keys are never stored digitally.
 CAUTION: INSTALL SOFTWARE BEFORE REMOVING RADIOS ;)
 
-## Installation guide (same for online and offline parts)
-- Install node and npm if not already installed
-- Make a folder
-- Open terminal in folder
-- npm init -y
-- npm install viem qrcode (qrcode only neccesary for offline part)
-- In `package.json`, add or change 'type' to "type": "module".
-- Add the correct .js files (Online: online.js, abi.js, client.js. Offline: offline.js)
+## Getting Started
+- Download and unzip the pre-built zip.
+- In the EthGap folder run `node -i offline.js` or `node -i online.js`
+- Now you can run the functions provided in the code.
 
-- If you can't get npm to work in tails, you can just install everything (including node) to one folder in windows, zip it, and send it to tails using email.
-
-## Use guide
-- Open terminal in folder
-- node
-- w = await import('./offline.js') [OR online.js!]
-
-Now you can use the functions provided in the code.
+- Caution: Whether you use the provided node-modules (unverified) or install your own, supply chain attacks are possible in theory.
+- Therefore you MUST always verify the QR codes produces by `output.js`. Check that they are not leaking your seed phrase or making unauthorised transactions!
 
 ## Workflow
 - Use the Online part to check your balance.
