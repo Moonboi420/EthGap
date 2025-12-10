@@ -10,7 +10,7 @@ I recommend running the offline part on a device with radios (wifi, bluetooth, e
 CAUTION: INSTALL SOFTWARE BEFORE REMOVING RADIOS ;)
 
 ## Getting Started
-- Download and unzip the pre-built zip.
+- Download and unzip the pre-built zip. (https://github.com/Moonboi420/EthGap/releases/tag/1.0.0)
 - In the EthGap folder run `node -i offline.js` or `node -i online.js`
 - Now you can call the functions provided in the code.
 
